@@ -14,7 +14,7 @@ public class Triangle
 		boolean isTriangle;
 	//tests if the three given integers form a triangle
 		isTriangle = (a + b > c) && (a + c > b) && (b + c > a);
-		System.out.println(a + " " + b + " " + c + " : " + isTriangle);
+		System.out.println(a + " " + b + " " + c + ": " + isTriangle);
 
 	}
 }
