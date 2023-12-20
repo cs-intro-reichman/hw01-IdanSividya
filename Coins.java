@@ -7,13 +7,13 @@ public class Coins
 	public static void main(String[] args)
 	{
 		int numCents = Integer.parseInt(args[0]);
-		int countQuater = 0;
+		int countQuarter = 0;
 		int countCents = 0;
 	// check the max quarters that the user can use.
 		while (numCents >= 25)
 		{
 			numCents = numCents - 25;
-			countQuater=countQuater + 1;
+			countQuarter=countQuarter + 1;
 		}
 	// check the remainder in cents.
 		while (numCents > 0)
@@ -21,6 +21,6 @@ public class Coins
 			numCents = numCents - 1;
 			countCents = countCents + 1;
 		}
-		System.out.println("Use "+ countQuater + " quaters and "+ countCents +" cents");
+		System.out.println("Use "+ countQuarter + " quarters and "+ countCents +" cents");
 	}
 }
